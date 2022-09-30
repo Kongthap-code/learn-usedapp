@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.2",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@metamask/jazzicon": "^2.0.0",
+    "@tanstack/react-query": "^4.2.3",
+    "@usedapp/core": "^1.1.5",
+    "ethers": "^5.7.0",
+    "framer-motion": "^7.3.1",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.invoke": "^4.5.2",
+    "node-vibrant": "^3.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "url": "^0.11.0",
+    "wouter": "^2.8.0-alpha.2"
+  },
+  "devDependencies": {
+    "@types/lodash.camelcase": "^4.3.7",
+    "@types/lodash.invoke": "^4.5.7",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
